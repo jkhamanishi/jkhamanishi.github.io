@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap 5 Example</title>
+  <title>Jackson Hamanishi Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+  <!--  Custom stylesheet and script  -->
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <script src="script.js"></script>
+
+  <!--  Bootswatch Materia theme for Boostrap  -->
   <link href="https://bootswatch.com/5/materia/bootstrap.css" rel="stylesheet">
-  <script type="text/javascript" src="https://livejs.com/live.js"></script>  <!-- for development -->
+
+  <!--  Script for LinkedIn badge  -->
+  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
+  <!--  For newpaper-style columns  -->
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+  <!--  For confetti  -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
 </head>
 <body>
 
@@ -15,62 +31,154 @@
 </div>
 
 <div class="container mt-5">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+
+  <!--  Intro  -->
+  <div class="row mb-4">
+    <div class="col">
+      <p>Thank you for visiting my portfolio!</p>
+      <p>Please take a look at some my most favourite projects that I have done throughout my university degree.</p>
+      <p>If you'd like to know more about me, feel free to check out my <a class="badge-base__link LI-simple-link" href="https://ca.linkedin.com/in/jkhamanishi?trk=profile-badge">LinkedIn profile</a>.</p>
     </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    <div class="col-auto">
+      <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="small" data-theme="light" data-type="HORIZONTAL" data-vanity="jkhamanishi" data-version="v1"></div>
     </div>
   </div>
 
-  <div class="row">
-    <div class="card border-primary mb-3">
-      <div class="card-header">Header</div>
-      <div class="card-body container-fluid">
-        <div class="row">
-          <div class="col-md-8">
-            <div class="photo-box">
-              <img class="img-fluid" src="http://placehold.it/400x300" alt="image">
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="photo-box">
-              <img class="img-fluid" src="http://placehold.it/400x300" alt="image">
-            </div>
-          </div>
-        </div>
-      </div>
+  <h1 class="mb-3">Projects</h1>
+
+  <!--  Filter Options-->
+  <div class="row mb-3">
+    <div class="col-auto" style="display:flex;align-items:center;">Filter: </div>
+    <div class="col-auto btn-group" role="group" aria-label="Basic radio toggle button group">
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+      <label class="btn btn-outline-primary" for="btnradio1">All</label>
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+      <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+      <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
+    </div>
+    <div class="col"></div>
+    <div class="col-auto">
+      <button type="button" class="btn btn-outline-primary" onclick="customConfetti()">Confetti</button>
     </div>
   </div>
 
-  <div class="row">
-    <div class="card border-primary mb-3">
-      <div class="card-header">Header</div>
-      <div class="card-body container-fluid">
-        <div class="row">
-          <div class="col-md-8">
-            <div class="photo-box">
-              <img class="img-fluid" src="http://placehold.it/400x300" alt="image">
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="photo-box">
-              <img class="img-fluid" src="http://placehold.it/400x300" alt="image">
-            </div>
-          </div>
-        </div>
+  <!--  Projects  -->
+  <div class="projects row">
+
+    <!--  Project 1  -->
+    <div class="project col-6 mb-3"><div class="card border-primary mb-3">
+      <div class="card-header">
+        <h3>Pancake Flipping & Serving Robot</h3>
+        <p class="lead">May 2023 - Present</p>
       </div>
-    </div>
+      <div class="card-body container-fluid"><div class="row">
+          <div class="col-xl-8">
+            <ul class="mb-0">
+              <li>Developing a 5-DoF manipulator to performing pancake cooking and serving task.</li>
+              <li>Designed the manipulator links using SolidWorks.</li>
+            </ul>
+          </div>
+          <div class="col-xl-4 d-flex justify-content-center mt-3">
+            <div class="photo-box">
+              <img class="img-fluid" src="http://placehold.it/400x300" alt="image">
+            </div>
+          </div>
+      </div></div>
+      <div class="card-footer">
+        <span class="badge rounded-pill bg-primary">Robotics</span>
+        <span class="badge rounded-pill bg-primary">Mechanical</span>
+        <span class="badge rounded-pill bg-primary">Software</span>
+      </div>
+    </div></div>
+
+    <div class="project col-6 mb-3"><div class="card border-primary mb-3">
+      <div class="card-header">
+        <h3>Pancake Flipping & Serving Robot</h3>
+        <p class="lead">May 2023 - Present</p>
+      </div>
+      <div class="card-body container-fluid"><div class="row">
+          <div class="col-xl-8">
+            <ul class="mb-0">
+              <li>Developing a 5-DoF manipulator to performing pancake cooking and serving task.</li>
+              <li>Designed the manipulator links using SolidWorks.</li>
+              <li>Generating the path trajectory and simulating the manipulator motion using MATLAB.</li>
+              <li>Analyzing the kinematics, dynamics, and Jacobian of the system.</li>
+            </ul>
+          </div>
+          <div class="col-xl-4 d-flex justify-content-center mt-3">
+            <div class="photo-box">
+              <img class="img-fluid" src="http://placehold.it/400x300" alt="image">
+            </div>
+          </div>
+      </div></div>
+      <div class="card-footer">
+        <span class="badge rounded-pill bg-primary">Robotics</span>
+        <span class="badge rounded-pill bg-primary">Mechanical</span>
+        <span class="badge rounded-pill bg-primary">Software</span>
+      </div>
+    </div></div>
+
+    <div class="project col-6 mb-3"><div class="card border-primary mb-3">
+      <div class="card-header">
+        <h3>Pancake Flipping & Serving Robot</h3>
+        <p class="lead">May 2023 - Present</p>
+      </div>
+      <div class="card-body container-fluid"><div class="row">
+          <div class="col-xl-8">
+            <ul class="mb-0">
+              <li>Developing a 5-DoF manipulator to performing pancake cooking and serving task.</li>
+              <li>Designed the manipulator links using SolidWorks.</li>
+              <li>Generating the path trajectory and simulating the manipulator motion using MATLAB.</li>
+              <li>Analyzing the kinematics, dynamics, and Jacobian of the system.</li>
+              <li>Developing a 5-DoF manipulator to performing pancake cooking and serving task.</li>
+              <li>Designed the manipulator links using SolidWorks.</li>
+              <li>Generating the path trajectory and simulating the manipulator motion using MATLAB.</li>
+              <li>Analyzing the kinematics, dynamics, and Jacobian of the system.</li>
+            </ul>
+          </div>
+          <div class="col-xl-4 d-flex justify-content-center mt-3">
+            <div class="photo-box">
+              <img class="img-fluid" src="http://placehold.it/400x300" alt="image">
+            </div>
+          </div>
+      </div></div>
+      <div class="card-footer">
+        <span class="badge rounded-pill bg-primary">Robotics</span>
+        <span class="badge rounded-pill bg-primary">Mechanical</span>
+        <span class="badge rounded-pill bg-primary">Software</span>
+      </div>
+    </div></div>
+
+    <div class="project col-6 mb-3"><div class="card border-primary mb-3">
+      <div class="card-header">
+        <h3>Pancake Flipping & Serving Robot</h3>
+        <p class="lead">May 2023 - Present</p>
+      </div>
+      <div class="card-body container-fluid"><div class="row">
+          <div class="col-xl-8">
+            <ul class="mb-0">
+              <li>Developing a 5-DoF manipulator to performing pancake cooking and serving task.</li>
+              <li>Designed the manipulator links using SolidWorks.</li>
+              <li>Generating the path trajectory and simulating the manipulator motion using MATLAB.</li>
+              <li>Analyzing the kinematics, dynamics, and Jacobian of the system.</li>
+            </ul>
+          </div>
+          <div class="col-xl-4 d-flex justify-content-center mt-3">
+            <div class="photo-box">
+              <img class="img-fluid" src="http://placehold.it/400x300" alt="image">
+            </div>
+          </div>
+      </div></div>
+      <div class="card-footer">
+        <span class="badge rounded-pill bg-primary">Robotics</span>
+        <span class="badge rounded-pill bg-primary">Mechanical</span>
+        <span class="badge rounded-pill bg-primary">Software</span>
+      </div>
+    </div></div>
+
+
+    <!--  End of projects  -->
   </div>
 
   <!--  End of container  -->

@@ -1,0 +1,7 @@
+.card-header > * {
+    margin-bottom: 0;
+}
+
+.project {
+    float: left;
+}
