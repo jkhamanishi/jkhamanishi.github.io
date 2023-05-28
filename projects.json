@@ -17,6 +17,24 @@
     "media": "media/Pancake Flipper.jpg"
   },
   {
+    "title": "High-Precision Mechatronic Catapult",
+    "start": "May 2023",
+    "end": "Present",
+    "description": [
+      "Creating a catapult to precisely launch a small ball into a target.",
+      "Designing the catapult arm as a truss in Solidworks, then constructing the structure using brass pieces as solder.",
+      "Designing and construct a basic power drive and interface electronics to power the arm.",
+      "Building a feedback control system to accurately operate the arm."
+    ],
+    "tags": [
+      "Robotics",
+      "Mechanical",
+      "Electrical",
+      "Software"
+    ],
+    "media": ""
+  },
+  {
     "title": "Rodent Laser Sentry",
     "start": "Jan 2023",
     "end": "Present",
@@ -30,7 +48,7 @@
       "Robotics",
       "Software"
     ],
-    "media": "",
+    "media": "media/Rodent Laser Sentry.jpg",
     "link": ""
   },
   {
@@ -49,6 +67,36 @@
     "link": "https://jkhamanishi.github.io/course-navigator/"
   },
   {
+    "title": "Servomotor Speed Controller with 8051 MCU",
+    "start": "Sep",
+    "end": "Nov 2022",
+    "description": [
+      "Created a controller for a brushless DC axial fan in C.",
+      "Developed a PWM signal generator using a closed-loop feedback controller to adjust the speed of the motor.",
+      "Presented the speed of the fan onto three 7-segment displays."
+    ],
+    "tags": [
+      "Software"
+    ],
+    "media": "",
+    "link": ""
+  },
+  {
+    "title": "Line Follower Robot",
+    "start": "Sep",
+    "end": "Nov 2022",
+    "description": [
+      "Created a LEGO robot to follow a line and react to an obstacle using C and Python.",
+      "Used an ultrasonic sensor to detect obstacles and a light/colour sensor to detect the line."
+    ],
+    "tags": [
+      "Robotics",
+      "Software"
+    ],
+    "media": "media/Line Follower.jpg",
+    "link": "media/Line Follower.mp4"
+  },
+  {
     "title": "Online Art Database (Digital Memory Box Database)",
     "start": "Apr 2019",
     "end": "Aug 2022",
@@ -65,7 +113,7 @@
   },
   {
     "title": "Indexing Drive Machine Design",
-    "start": "Oct 2021",
+    "start": "Oct",
     "end": "Dec 2021",
     "description": [
       "Led a team of four, delegating tasks and maintaining timelines to ensure project requirements were met.",
@@ -76,12 +124,28 @@
     "tags": [
       "Mechanical"
     ],
-    "media": "",
+    "media": "media/Indexing Drive.gif",
     "link": ""
   },
   {
+    "title": "Industrial Control Technology (ICT3) Unit Controller",
+    "start": "Sep",
+    "end": "Dec 2021",
+    "description": [
+      "Programmed an automatic controller for an industrial assembly system using LabVIEW.",
+      "Utilized a variety of sensors and actuators to sort components, assemble units, and verify assembly.",
+      "Created an interactive user interface to view sensor data and manually operate actuators."
+    ],
+    "tags": [
+      "Software",
+      "Robotics"
+    ],
+    "media": "media/ICT.jpg",
+    "link": "media/ICT.mp4"
+  },
+  {
     "title": "Four-Bar Critter Leg Mechanism Design",
-    "start": "Feb 2021",
+    "start": "Feb",
     "end": "Apr 2021",
     "description": [
       "Worked in a team to design a four-bar linkage that mimics the movement of a multi-leg critter.",
@@ -89,7 +153,56 @@
       "Created a SolidWorks model of the linkage to visually simulate the movement of the system."
     ],
     "tags": [
+      "Mechanical",
+      "Software"
+    ],
+    "media": "media/Four-Bar Critter.gif",
+    "link": ""
+  },
+  {
+    "title": "Bicycle Frame Design",
+    "start": "Nov",
+    "end": "Dec 2019",
+    "description": [
+      "Analyzed a pre-existing bike frame as a system of trusses and beams to perform stress calculations.",
+      "Performed calculations to determine the relative safety in each bar.",
+      "Proposed design change to improve safety and functionality of the bike.",
+      "Assembled a detailed project report that outlined our findings and calculations."
+    ],
+    "tags": [
       "Mechanical"
+    ],
+    "media": "media/Bicycle Frame.jpg",
+    "link": ""
+  },
+  {
+    "title": "Water Bottle Catapult",
+    "start": "Oct",
+    "end": "Nov 2019",
+    "description": [
+      "Worked in a team to design a device that promotes persistent hydrated to people of all ages.",
+      "Designed and simulated a power efficient catapult in SolidWorks to launch water bottles.",
+      "Combined SolidWorks drawings, part descriptions, and a design into a short technical report."
+    ],
+    "tags": [
+      "Mechanical"
+    ],
+    "media": "",
+    "link": ""
+  },
+  {
+    "title": "Triboelectric Nanogenerator",
+    "start": "Feb",
+    "end": "Mar 2019",
+    "description": [
+      "Worked in a team to produce a prototype AC nanogenerator by utilizing the triboelectric effect and electrostatic induction.",
+      "Tested, analyzed, and reported the generating effects of material, surface area, and contact frequency to determine the most optimal and cost-efficient product dimensions.",
+      "Created a full bridge rectifier to convert AC to DC to light an LED.",
+      "Constructed a technical report and slideshow presentation to fully illustrate our project outcomes."
+    ],
+    "tags": [
+      "Mechanical",
+      "Electrical"
     ],
     "media": "",
     "link": ""

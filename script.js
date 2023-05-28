@@ -33,8 +33,8 @@ function loadProjects() {
             const body = createAndAppendElement(card, 'div', "card-body container-fluid");
             const row = createAndAppendElement(body, 'div', "row");
             if (projectData.media) {
-                var listContainer = createAndAppendElement(row, 'div', "col-xl-8");
-                const imgContainer1 = createAndAppendElement(row, 'div', "col-xl-4 d-flex mt-3");
+                var listContainer = createAndAppendElement(row, 'div', "col-lg-8");
+                const imgContainer1 = createAndAppendElement(row, 'div', "col-lg-4 d-flex mt-3");
                 if (projectData.link) {
                     // Link
                     const link = createAndAppendElement(imgContainer1, 'a', "");
@@ -47,8 +47,8 @@ function loadProjects() {
                     img.src = projectData.media;
                     img.style = "filter: blur(1px); -webkit-filter: blur(1px);";
                     // Link button
-                    const button = createAndAppendElement(imgContainer2, "span", "badge rounded-pill bg-info me-1");
-                    button.innerText = "Show Project"
+                    const button = createAndAppendElement(imgContainer2, "span", "badge bg-secondary");
+                    button.innerText = "View Project"
                     button.style = "position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);";
                 } else {
                     // Image
@@ -57,7 +57,7 @@ function loadProjects() {
                     img.src = projectData.media;
                 }
             } else {
-                var listContainer = createAndAppendElement(row, 'div', "col-xl-12");
+                var listContainer = createAndAppendElement(row, 'div', "col-12");
             }
             const list = createAndAppendElement(listContainer, 'ul', "mb-0");
             projectData.description.forEach(desc => {
