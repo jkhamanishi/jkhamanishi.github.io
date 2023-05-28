@@ -1,19 +1,27 @@
-$(function() {
-    // on document ready
+$( document ).ready( function() {
+    // On document load
+    loadProjects();
+    $('#filter input').on('click', function() {
+        const filter_id = $('#filter input:checked').attr('id');
+        var filter = $('label[for="' + filter_id + '"]').html();
+        filter = filter == 'All' ? '*' : '.' + filter.replace(/ /g,"-").toLowerCase();
+        $('#projects').isotope({
+            filter: filter
+        });
+    });
+});
 
+
+function loadProjects() {
     fetch('projects.json')
     .then(response => response.json())
     .then(data => {
-        console.log(data);
         const container = document.getElementById('projects');
-        container.innerHTML = "";
-        data.forEach(projectData => {
+        container.innerHTML = "";  // clear container
+        for (projectData of data) {
             // Project card initialization
-            const project = createAndAppendElement(container, 'div', "project col-6 mb-4");
-//            var height = Math.random()*400;
-//            console.log(height)
-//            project.style = "background-color: blue; height: "+height+"px";
-//            project.innerText = "ok"
+            const project = createAndAppendElement(container, 'div', "project col-md-6 mb-4");
+            projectData.tags.forEach(tag => {project.classList.add(tag.replace(/ /g,"-").toLowerCase());});
             const card = createAndAppendElement(project, 'div', "card border-primary");
             // Header
             const header = createAndAppendElement(card, 'div', "card-header");
@@ -62,7 +70,7 @@ $(function() {
                 const tagElement = createAndAppendElement(footer, "span", "badge rounded-pill bg-primary me-1");
                 tagElement.innerText = tag;
             });
-        });
+        };
     })
     .then(() => {
         Promise.all(
@@ -81,7 +89,7 @@ $(function() {
             });
         });
     });
-});
+};
 
 function createAndAppendElement(parent, tagName, classes) {
     const newElement = document.createElement(tagName);

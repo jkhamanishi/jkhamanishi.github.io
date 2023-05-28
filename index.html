@@ -51,26 +51,27 @@
   <!--  Filter Options-->
   <div class="row mb-3">
     <div class="col-auto" style="display:flex;align-items:center;">Filter: </div>
-    <div class="col-auto btn-group" role="group" aria-label="Basic radio toggle button group">
-      <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-      <label class="btn btn-outline-primary" for="btnradio1">All</label>
-      <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-      <label class="btn btn-outline-primary" for="btnradio2">Robotics</label>
-      <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-      <label class="btn btn-outline-primary" for="btnradio3">Mechanical</label>
-      <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
-      <label class="btn btn-outline-primary" for="btnradio4">Software</label>
-      <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
-      <label class="btn btn-outline-primary" for="btnradio5">Web Apps</label>
+    <div class="col-auto btn-group" id="filter" role="group" aria-label="Basic radio toggle button group">
+      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-1" autocomplete="off" checked>
+      <label class="btn btn-outline-primary" for="filter-radio-1">All</label>
+      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-2" autocomplete="off">
+      <label class="btn btn-outline-primary" for="filter-radio-2">Robotics</label>
+      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-3" autocomplete="off">
+      <label class="btn btn-outline-primary" for="filter-radio-3">Mechanical</label>
+      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-4" autocomplete="off">
+      <label class="btn btn-outline-primary" for="filter-radio-4">Software</label>
+      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-5" autocomplete="off">
+      <label class="btn btn-outline-primary" for="filter-radio-5">Web Apps</label>
     </div>
-    <div class="col"></div>
-    <div class="col-auto">
-      <button type="button" class="btn btn-outline-primary" onclick="customConfetti()">Confetti</button>
+    <div class="col">
+      <div class="float-end">
+        <button type="button" class="btn btn-outline-primary" onclick="customConfetti()">Confetti</button>
+      </div>
     </div>
   </div>
 
   <!--  Projects  -->
-  <div id="projects" class="row">
+  <div id="projects" class="row mb-3">
     <!--  This will autofill from projects.json  -->
   </div>
 
