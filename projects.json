@@ -1,0 +1,97 @@
+[
+  {
+    "title": "Pancake Flipping & Serving Robot",
+    "start": "May 2023",
+    "end": "Present",
+    "description": [
+      "Developing a 5-DoF manipulator to performing pancake cooking and serving task.",
+      "Designed the manipulator links using SolidWorks.",
+      "Generating the path trajectory and simulating the manipulator motion using MATLAB.",
+      "Analyzing the kinematics, dynamics, and Jacobian of the system."
+    ],
+    "tags": [
+      "Robotics",
+      "Mechanical",
+      "Software"
+    ],
+    "media": "media/Pancake Flipper.jpg"
+  },
+  {
+    "title": "Rodent Laser Sentry",
+    "start": "Jan 2023",
+    "end": "Present",
+    "description": [
+      "Working in a team of five to fabricate a device to detect, identify, aim, and shoot at rodents.",
+      "Training a rodent identification model using deep learning computer vision.",
+      "Manipulating a low-powered laser pointer using a closed-loop motor control scheme.",
+      "Creating a GUI in Python to monitor sensors and actuators for development and commercial use."
+    ],
+    "tags": [
+      "Robotics",
+      "Software"
+    ],
+    "media": "",
+    "link": ""
+  },
+  {
+    "title": "Curriculum Planner Web Application",
+    "start": "Dec 2020",
+    "end": "Present",
+    "description": [
+      "Created a web application to help students in the School of Mechatronic Systems Engineering at SFU plan out their curriculum.",
+      "Designed and organized curriculum data using CSV files, JavaScript, and HTML.",
+      "Received feedback and feature requests from users and adjusted the application accordingly."
+    ],
+    "tags": [
+      "Web Apps"
+    ],
+    "media": "media/Course Navigator.jpg",
+    "link": "https://jkhamanishi.github.io/course-navigator/"
+  },
+  {
+    "title": "Online Art Database (Digital Memory Box Database)",
+    "start": "Apr 2019",
+    "end": "Aug 2022",
+    "description": [
+      "Developed an online database of artwork for my high school gifted education program.",
+      "Organized and collected artwork and artist information, and ensured the data is accurate, consistent, and inside the correct portfolio.",
+      "Stored artist data in an Excel spreadsheet, then converted it to HTML using VBA and JavaScript."
+    ],
+    "tags": [
+      "Web Apps"
+    ],
+    "media": "",
+    "link": ""
+  },
+  {
+    "title": "Indexing Drive Machine Design",
+    "start": "Oct 2021",
+    "end": "Dec 2021",
+    "description": [
+      "Led a team of four, delegating tasks and maintaining timelines to ensure project requirements were met.",
+      "Determined the optimal material for each part based on strength, fatigue limit, and accessibility.",
+      "Designed and analysed the motor beam, angled support, support beams, chains and gear shaft.",
+      "Created a SolidWorks model of the parts to optimize the topology, perform stress analysis, simulate the movement of the system."
+    ],
+    "tags": [
+      "Mechanical"
+    ],
+    "media": "",
+    "link": ""
+  },
+  {
+    "title": "Four-Bar Critter Leg Mechanism Design",
+    "start": "Feb 2021",
+    "end": "Apr 2021",
+    "description": [
+      "Worked in a team to design a four-bar linkage that mimics the movement of a multi-leg critter.",
+      "Analysed the kinematics and dynamics for each of the four bars using mathematical models and computational methods in MATLAB.",
+      "Created a SolidWorks model of the linkage to visually simulate the movement of the system."
+    ],
+    "tags": [
+      "Mechanical"
+    ],
+    "media": "",
+    "link": ""
+  }
+]
