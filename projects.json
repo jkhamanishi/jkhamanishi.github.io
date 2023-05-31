@@ -4,7 +4,7 @@
     "start": "May 2023",
     "end": "Present",
     "description": [
-      "Developing a 5-DoF manipulator to performing pancake cooking and serving task.",
+      "Developing a 5-DoF manipulator to perform pancake cooking and serving tasks.",
       "Designed the manipulator links using SolidWorks.",
       "Generating the path trajectory and simulating the manipulator motion using MATLAB.",
       "Analyzing the kinematics, dynamics, and Jacobian of the system."
@@ -14,7 +14,7 @@
       "Mechanical",
       "Software"
     ],
-    "media": "media/Pancake Flipper.jpg"
+    "media": "media/Pancake Flipper.jng"
   },
   {
     "title": "High-Precision Mechatronic Catapult",
