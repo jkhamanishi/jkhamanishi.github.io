@@ -18,7 +18,7 @@
   <!--  Script for LinkedIn badge  -->
   <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
-  <!--  For newpaper-style columns  -->
+  <!--  For newspaper-style columns  -->
   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 
   <!--  For confetti  -->
@@ -52,19 +52,29 @@
   <!--  Filter Options-->
   <div class="row mb-3">
     <div class="col-auto" style="display:flex;align-items:center;">Filter: </div>
-    <div class="col-auto btn-group" id="filter" role="group" aria-label="Basic radio toggle button group">
-      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-1" autocomplete="off" checked>
+    <div class="col-auto btn-group d-none d-lg-block" id="filter-radio" role="group" aria-label="Basic radio toggle button group">
+      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-1" value="*" checked>
       <label class="btn btn-outline-primary" for="filter-radio-1">All</label>
-      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-2" autocomplete="off">
+      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-2" value=".robotics">
       <label class="btn btn-outline-primary" for="filter-radio-2">Robotics</label>
-      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-3" autocomplete="off">
+      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-3" value=".software">
       <label class="btn btn-outline-primary" for="filter-radio-3">Software</label>
-      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-4" autocomplete="off">
+      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-4" value=".mechanical">
       <label class="btn btn-outline-primary" for="filter-radio-4">Mechanical</label>
-      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-5" autocomplete="off">
+      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-5" value=".electrical">
       <label class="btn btn-outline-primary" for="filter-radio-5">Electrical</label>
-      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-6" autocomplete="off">
+      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-6" value=".web-apps">
       <label class="btn btn-outline-primary" for="filter-radio-6">Web Apps</label>
+    </div>
+    <div class="col form-group d-lg-none">
+      <select class="form-select" id="filter-dropdown" style="text-indent: 5px">
+        <option value="*">All</option>
+        <option value=".robotics">Robotics</option>
+        <option value=".software">Software</option>
+        <option value=".mechanical">Mechanical</option>
+        <option value=".electrical">Electrical</option>
+        <option value=".web-apps">Web Apps</option>
+      </select>
     </div>
     <div class="col">
       <div class="float-end">

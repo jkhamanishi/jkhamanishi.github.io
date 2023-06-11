@@ -1,13 +1,13 @@
 $( document ).ready( function() {
     // On document load
     loadProjects();
-    $('#filter input').on('click', function() {
-        const filter_id = $('#filter input:checked').attr('id');
-        var filter = $('label[for="' + filter_id + '"]').html();
-        filter = filter == 'All' ? '*' : '.' + filter.replace(/ /g,"-").toLowerCase();
-        $('#projects').isotope({
-            filter: filter
-        });
+    $('#filter-radio input').on('click', function() {
+        $('#projects').isotope({filter: this.value});
+        $('#filter-dropdown').val(this.value);
+    });
+    $('#filter-dropdown').on('change', function() {
+      $('#projects').isotope({filter: this.value});
+      $('#filter-radio input[value="' + this.value + '"]').prop('checked', true);
     });
 });
 
