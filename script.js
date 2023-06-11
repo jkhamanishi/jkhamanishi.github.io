@@ -108,7 +108,6 @@ function customConfetti() {
         startVelocity: 75,
         gravity: 3,
         scalar: 1,
-        zIndex: 2000,
-        disableForReducedMotion: true
+        zIndex: 2000
     });
 };
