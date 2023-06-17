@@ -14,16 +14,16 @@
       "Mechanical",
       "Software"
     ],
-    "media": "media/Pancake Flipper.jpg"
+    "media": "media/Pancake Robot.gif"
   },
   {
     "title": "High-Precision Mechatronic Catapult",
     "start": "May 2023",
     "end": "Present",
     "description": [
-      "Creating a catapult to precisely launch a small ball into a target.",
-      "Designing the catapult arm as a truss in Solidworks, then constructing the structure using brass pieces and solder.",
-      "Designing and construct a basic power drive and interface electronics to power the arm.",
+      "Creating a catapult to precisely launch balls of various weights into a target.",
+      "Designed an arm in SolidWorks and assembled the arm using brass pieces and solder.",
+      "Constructing an electronic interface to connect an Arduino to the motor drive.",
       "Building a feedback control system to accurately operate the arm."
     ],
     "tags": [
