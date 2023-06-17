@@ -1,6 +1,8 @@
 $( document ).ready( function() {
     // On document load
+    // Load projects
     loadProjects();
+    // Add event listener on filter selectors
     $('#filter-radio input').on('click', function() {
         $('#projects').isotope({filter: this.value});
         $('#filter-dropdown').val(this.value);
