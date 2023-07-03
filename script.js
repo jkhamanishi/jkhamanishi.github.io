@@ -36,12 +36,18 @@ function loadProjects() {
             const row = createAndAppendElement(body, 'div', "row");
             if (projectData.media) {
                 var listContainer = createAndAppendElement(row, 'div', "col-lg-8");
-                const imgContainer1 = createAndAppendElement(row, 'div', "col-lg-4 d-flex");
-                if (projectData.link) {
+                const imgContainer1 = createAndAppendElement(row, 'div', "col-lg-4 photo-box");
+                if (projectData.link || projectData.modalMedia) {
                     // Link
                     const link = createAndAppendElement(imgContainer1, 'a', "");
-                    link.href = projectData.link;
-                    link.target = "_blank";
+                    link.style.cursor = "pointer";
+                    if (projectData.link) {
+                        link.href = projectData.link;
+                        link.target = "_blank";
+                    } else if (projectData.modalMedia) {
+                        const modal = createModal(body, projectData.title, projectData.modalMedia);
+                        link.addEventListener("click", function(){ $(modal).modal('show') });
+                    }
                     // Image
                     const imgContainer2 = createAndAppendElement(link, 'div', "photo-box justify-content-center");
                     imgContainer2.style = "position: relative; text-align: center;";
@@ -53,14 +59,23 @@ function loadProjects() {
                     button.innerText = "View Project"
                     button.style = "position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);";
                 } else {
+                    const imgContainer2 = createAndAppendElement(imgContainer1, 'div', "photo-box");
                     // Image
-                    const imgContainer2 = createAndAppendElement(imgContainer1, 'div', "photo-box justify-content-center");
                     const img = createAndAppendElement(imgContainer2, 'img', "img-fluid");
+                    // Tooltip
                     img.src = projectData.media;
+                    img.setAttribute("data-bs-toggle", "tooltip");
+                    img.setAttribute("data-bs-placement", "bottom");
+                    img.setAttribute("data-bs-original-title", "Click to enlarge");
+                    // Enlarged Image Modal
+                    const modal = createModal(body, projectData.title, projectData.media);
+                    imgContainer2.style.cursor = "pointer";
+                    imgContainer2.addEventListener("click", function(){ $(modal).modal('show') });
                 }
             } else {
                 var listContainer = createAndAppendElement(row, 'div', "col-12");
             }
+            // Description
             const list = createAndAppendElement(listContainer, 'ul', "mb-3");
             projectData.description.forEach(desc => {
                 const description = createAndAppendElement(list, "li", "");
@@ -73,6 +88,11 @@ function loadProjects() {
                 tagElement.innerText = tag;
             });
         };
+        // Enable tooltips
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
     })
     .then(() => {
         Promise.all(
@@ -98,6 +118,40 @@ function createAndAppendElement(parent, tagName, classes) {
     newElement.className = classes;
     parent.appendChild(newElement);
     return newElement
+}
+
+function createModal(parent, projectTitle, media){
+    const modal = createAndAppendElement(parent, "div", "modal");
+    const dialog = createAndAppendElement(modal, "div", "modal-dialog modal-xl");
+    dialog.role = "document";
+    const container = createAndAppendElement(dialog, "div", "modal-content");
+    // Header
+    const header = createAndAppendElement(container, "div", "modal-header");
+    const title = createAndAppendElement(header, "h5", "modal-title");
+    title.innerText = projectTitle + " (media)";
+    // Close button
+    const close = createAndAppendElement(header, "button", "btn-close");
+    close.setAttribute("data-bs-dismiss", "modal");
+    // Body
+    const body = createAndAppendElement(container, "div", "modal-body photo-box text-center");
+    heightStyle = "min-height: 300px; max-height: calc(100vh - 150px);";
+    if (media.endsWith('.mp4')) {
+        // Video player
+        const vid = createAndAppendElement(body, 'video', "img-fluid");
+        vid.innerText = "Your browser does not support the video tag.";
+        vid.style = heightStyle;
+        vid.controls = true;
+        source = createAndAppendElement(vid, 'source', "");
+        source.src = media;
+        source.setAttribute("type", "video/mp4");
+        $(modal).on('hidden.bs.modal', function(e){ vid.pause() });
+    } else {
+        // Image display
+        const img = createAndAppendElement(body, 'img', "img-fluid");
+        img.src = media;
+        img.style = heightStyle;
+    }
+    return modal
 }
 
 function customConfetti() {

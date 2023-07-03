@@ -95,7 +95,7 @@
       "Software"
     ],
     "media": "media/Line Follower.jpg",
-    "link": "media/videoplayer.html?src=Line Follower.mp4"
+    "modalMedia": "media/Line Follower.mp4"
   },
   {
     "title": "Online Art Database (Digital Memory Box Database)",
@@ -142,7 +142,7 @@
       "Robotics"
     ],
     "media": "media/ICT.jpg",
-    "link": "media/videoplayer.html?src=ICT.mp4"
+    "modalMedia": "media/ICT.mp4"
   },
   {
     "title": "Four-Bar Critter Leg Mechanism Design",
