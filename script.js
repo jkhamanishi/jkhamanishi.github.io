@@ -36,7 +36,7 @@ function loadProjects() {
             const row = createAndAppendElement(body, 'div', "row");
             if (projectData.media) {
                 var listContainer = createAndAppendElement(row, 'div', "col-lg-8");
-                const imgContainer1 = createAndAppendElement(row, 'div', "col-lg-4 d-flex mt-3");
+                const imgContainer1 = createAndAppendElement(row, 'div', "col-lg-4 d-flex");
                 if (projectData.link) {
                     // Link
                     const link = createAndAppendElement(imgContainer1, 'a', "");
@@ -61,9 +61,9 @@ function loadProjects() {
             } else {
                 var listContainer = createAndAppendElement(row, 'div', "col-12");
             }
-            const list = createAndAppendElement(listContainer, 'ul', "mb-0");
+            const list = createAndAppendElement(listContainer, 'ul', "mb-3");
             projectData.description.forEach(desc => {
-                const description = createAndAppendElement(listContainer, "li", "");
+                const description = createAndAppendElement(list, "li", "");
                 description.innerText = desc;
             });
             // Footer
