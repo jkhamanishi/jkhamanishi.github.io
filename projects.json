@@ -41,7 +41,7 @@
     "description": [
       "Working in a team of five to fabricate a device to detect, identify, aim, and shoot at rodents.",
       "Trained a rodent identification model using deep learning computer vision (OpenCV).",
-      "Controlling a low-powered laser pointer using a closed-loop motor control scheme.",
+      "Controlled a low-powered laser pointer using a closed-loop motor control scheme.",
       "Created a GUI in Python Qt to monitor sensors, control actuators, and present statistics for development and commercial applications."
     ],
     "tags": [
