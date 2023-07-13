@@ -5,8 +5,8 @@
     "end": "Present",
     "description": [
       "Developing a 5-DoF manipulator to perform pancake cooking and serving tasks.",
-      "Designed the manipulator links using SolidWorks.",
-      "Generating the path trajectory and simulating the manipulator motion using MATLAB.",
+      "Designed the manipulator links in SolidWorks.",
+      "Generated the path trajectory and simulated the manipulator motion using MATLAB.",
       "Analyzing the kinematics, dynamics, and Jacobian of the system."
     ],
     "tags": [
@@ -23,8 +23,8 @@
     "description": [
       "Creating a catapult to precisely launch balls of various weights into a target.",
       "Designed an arm in SolidWorks and assembled the arm using brass pieces and solder.",
-      "Constructing an electronic interface to connect an Arduino to the motor drive.",
-      "Building a feedback control system to accurately operate the arm."
+      "Constructed an electronic interface to connect an Arduino to the motor drive.",
+      "Built a feedback control system to accurately operate the arm."
     ],
     "tags": [
       "Robotics",
@@ -40,9 +40,9 @@
     "end": "Present",
     "description": [
       "Working in a team of five to fabricate a device to detect, identify, aim, and shoot at rodents.",
-      "Training a rodent identification model using deep learning computer vision.",
-      "Manipulating a low-powered laser pointer using a closed-loop motor control scheme.",
-      "Creating a GUI in Python to monitor sensors and actuators for development and commercial use."
+      "Trained a rodent identification model using deep learning computer vision (OpenCV).",
+      "Controlling a low-powered laser pointer using a closed-loop motor control scheme.",
+      "Created a GUI in Python Qt to monitor sensors, control actuators, and present statistics for development and commercial applications."
     ],
     "tags": [
       "Robotics",
