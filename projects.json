@@ -83,6 +83,21 @@
     "link": ""
   },
   {
+    "title": "Maze Solver Robot",
+    "start": "Nov",
+    "end": "Dec 2022",
+    "description": [
+      "Created a LEGO robot to navigate and solve a maze.",
+      "Developed an algorithm to determine the most efficient path to solve the maze.",
+      "Used an ultrasonic sensor to detect walls, paths, and dead-ends."
+    ],
+    "tags": [
+      "Robotics",
+      "Software"
+    ],
+    "media": ""
+  },
+  {
     "title": "Line Follower Robot",
     "start": "Sep",
     "end": "Nov 2022",
