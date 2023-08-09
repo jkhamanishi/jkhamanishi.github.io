@@ -14,9 +14,6 @@
   <!--  Bootswatch Materia theme for Boostrap  -->
   <link href="https://bootswatch.com/5/materia/bootstrap.css" rel="stylesheet">
 
-  <!--  Script for LinkedIn badge  -->
-  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-
   <!--  For newspaper-style columns  -->
   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 
@@ -36,6 +33,7 @@
   <p class="mb-0">Welcome to my portfolio!</p>
 </div>
 
+<!--  Main Container  -->
 <div class="container mt-5">
 
   <!--  Intro  -->
@@ -43,10 +41,12 @@
     <div class="col">
       <p>Thank you for visiting my portfolio!</p>
       <p>Please take a look at some my most favourite projects that I have done throughout my university degree.</p>
-      <p>If you'd like to know more about me, feel free to check out my <a class="badge-base__link LI-simple-link" href="https://ca.linkedin.com/in/jkhamanishi?trk=profile-badge">LinkedIn profile</a>.</p>
+      <p>If you'd like to know more about me, feel free to check out my <a href="https://ca.linkedin.com/in/jkhamanishi?trk=profile-badge">LinkedIn profile</a>.</p>
     </div>
-    <div class="col-auto">
-      <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="small" data-theme="light" data-type="HORIZONTAL" data-vanity="jkhamanishi" data-version="v1"></div>
+    <div class="col-sm-auto d-flex justify-content-center">
+      <div id="profile-pic-container" style="height: 120px">
+        <img src="media/Profile Pic.jpeg" alt="Profile Picture" id="profile-pic">
+      </div>
     </div>
   </div>
 
@@ -92,7 +92,7 @@
     <!--  This will autofill from projects.json  -->
   </div>
 
-  <!--  End of container  -->
+  <!--  End of Main Container  -->
 </div>
 
 </body>

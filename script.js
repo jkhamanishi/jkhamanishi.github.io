@@ -92,7 +92,12 @@ function loadProjects() {
         var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
         var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
             return new bootstrap.Tooltip(tooltipTriggerEl)
-        })
+        });
+        // Run isotope
+        $('#projects').isotope({
+            itemSelector: '.project',
+            masonry: {}
+        });
     })
     .then(() => {
         Promise.all(
