@@ -1,57 +1,5 @@
 [
   {
-    "title": "Pancake Flipping & Serving Robot",
-    "start": "May 2023",
-    "end": "Present",
-    "description": [
-      "Developing a 5-DoF manipulator to perform pancake cooking and serving tasks.",
-      "Designed the manipulator links in SolidWorks.",
-      "Generated the path trajectory and simulated the manipulator motion using MATLAB.",
-      "Analyzing the kinematics, dynamics, and Jacobian of the system."
-    ],
-    "tags": [
-      "Robotics",
-      "Mechanical",
-      "Software"
-    ],
-    "media": "media/Pancake Robot.gif"
-  },
-  {
-    "title": "High-Precision Mechatronic Catapult",
-    "start": "May 2023",
-    "end": "Present",
-    "description": [
-      "Creating a catapult to precisely launch balls of various weights into a target.",
-      "Designed an arm in SolidWorks and assembled the arm using brass pieces and solder.",
-      "Constructed an electronic interface to connect an Arduino to the motor drive.",
-      "Built a feedback control system to accurately operate the arm."
-    ],
-    "tags": [
-      "Robotics",
-      "Mechanical",
-      "Electrical",
-      "Software"
-    ],
-    "media": ""
-  },
-  {
-    "title": "Rodent Laser Sentry",
-    "start": "Jan 2023",
-    "end": "Present",
-    "description": [
-      "Working in a team of five to fabricate a device to detect, identify, aim, and shoot at rodents.",
-      "Trained a rodent identification model using deep learning computer vision (OpenCV).",
-      "Controlled a low-powered laser pointer using a closed-loop motor control scheme.",
-      "Created a GUI in Python Qt to monitor sensors, control actuators, and present statistics for development and commercial applications."
-    ],
-    "tags": [
-      "Robotics",
-      "Software"
-    ],
-    "media": "media/Rodent Laser Sentry.jpg",
-    "link": ""
-  },
-  {
     "title": "Curriculum Planner Web Application",
     "start": "Dec 2020",
     "end": "Present",
@@ -65,6 +13,60 @@
     ],
     "media": "media/Course Navigator.jpg",
     "link": "https://jkhamanishi.github.io/course-navigator/"
+  },
+  {
+    "title": "Pancake Flipping & Serving Robot",
+    "start": "May",
+    "end": "Aug 2023",
+    "description": [
+      "Developed a 5-DoF manipulator to perform pancake cooking and serving tasks.",
+      "Designed the manipulator links in SolidWorks.",
+      "Generated the path trajectory and simulated the manipulator motion using MATLAB.",
+      "Analyzed the kinematics, dynamics, and Jacobian of the system."
+    ],
+    "tags": [
+      "Robotics",
+      "Mechanical",
+      "Software"
+    ],
+    "media": "media/Pancake Robot.gif",
+    "modalMedia": "media/Pancake Robot.mp4"
+  },
+  {
+    "title": "High-Precision Mechatronic Catapult",
+    "start": "May",
+    "end": "Aug 2023",
+    "description": [
+      "Created a catapult to precisely launch balls of various weights into a target.",
+      "Designed an arm in SolidWorks and assembled the arm using brass pieces and solder.",
+      "Constructed an electronic interface to connect an Arduino to the motor drive.",
+      "Built a feedback control system to accurately operate the arm."
+    ],
+    "tags": [
+      "Robotics",
+      "Mechanical",
+      "Electrical",
+      "Software"
+    ],
+    "media": "media/Catapult.jpg",
+    "modalMedia": "media/Catapult.mp4"
+  },
+  {
+    "title": "Rodent Laser Sentry",
+    "start": "Jan",
+    "end": "Aug 2023",
+    "description": [
+      "Worked in a team of five to fabricate a device to detect, identify, aim, and shoot at rodents.",
+      "Trained a rodent identification model using deep learning computer vision (OpenCV).",
+      "Controlled a low-powered laser pointer using a closed-loop motor control scheme.",
+      "Created a GUI in Python Qt to monitor sensors, control actuators, and present statistics for development and commercial applications."
+    ],
+    "tags": [
+      "Robotics",
+      "Software"
+    ],
+    "media": "media/Rodent Laser Sentry.jpg",
+    "link": ""
   },
   {
     "title": "Servomotor Speed Controller with 8051 MCU",
