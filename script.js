@@ -149,7 +149,8 @@ function createModal(parent, projectTitle, media){
         source = createAndAppendElement(vid, 'source', "");
         source.src = media;
         source.setAttribute("type", "video/mp4");
-        $(modal).on('hidden.bs.modal', function(e){ vid.pause() });
+        $(modal).on('hide.bs.modal', function(e){ vid.pause() });
+        $(modal).on('shown.bs.modal', function(e){ vid.play() });
     } else {
         // Image display
         const img = createAndAppendElement(body, 'img', "img-fluid");
