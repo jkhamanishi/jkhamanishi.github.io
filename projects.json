@@ -66,7 +66,7 @@
       "Software"
     ],
     "media": "media/Rodent Laser Sentry.jpg",
-    "link": ""
+    "modalMedia": "media/Rodent Laser Sentry.mp4"
   },
   {
     "title": "Servomotor Speed Controller with 8051 MCU",
