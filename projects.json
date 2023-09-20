@@ -115,6 +115,35 @@
     "modalMedia": "media/Line Follower.mp4"
   },
   {
+    "title": "Lab Environment Condition Monitoring",
+    "start": "May",
+    "end": "Sep 2022",
+    "description": [
+      "Assisted in the automation of recording environmental data (temperature and humidity) throughout the lab.",
+      "Used I2C sensors, multiplexers, and Raspberry Pis to record conditions at different locations in a lab room.",
+      "Wrote a Python script to periodically send live and historical data to a database"
+    ],
+    "tags": [
+      "Electrical",
+      "Software"
+    ]
+  },
+  {
+    "title": "Full-Stack Development for R&D",
+    "start": "Jan",
+    "end": "Sep 2022",
+    "description": [
+      "Developed the pipeline for lab researchers to collect and record data into a database on AWS.",
+      "Created data ingestion forms and data visualization pages using Python, JavaScript, and CSS.",
+      "Maintained and upgraded the LabVIEW and Python scripts for spectrometer testing stations to automatically send measurements to the database.",
+      "Collected environmental data throughout the lab and visually presented current and historical lab conditions on demand."
+    ],
+    "tags": [
+      "Software",
+      "Web Apps"
+    ]
+  },
+  {
     "title": "Online Art Database (Digital Memory Box Database)",
     "start": "Apr 2019",
     "end": "Aug 2022",
@@ -151,7 +180,7 @@
     "end": "Dec 2021",
     "description": [
       "Programmed an automatic controller for an industrial assembly system using LabVIEW.",
-      "Utilized a variety of sensors and actuators to sort components, assemble units, and verify assembly.",
+      "Utilized a variety of sensors and actuators to sort components, assemble units, and verify the assembly.",
       "Created an interactive user interface to view sensor data and manually operate actuators."
     ],
     "tags": [
@@ -176,6 +205,19 @@
     ],
     "media": "media/Four-Bar Critter.gif",
     "link": ""
+  },
+  {
+    "title": "3D CT Scan Visualization",
+    "start": "Sep",
+    "end": "Dec 2020",
+    "description": [
+      "Developed scripts in Bash and Python to quickly extract visual data from over 50 CT scans.",
+      "Automatically rendered and visualized 3D models of organs.",
+      "Scripted collages of extracted CT scan images and processed 3D models."
+    ],
+    "tags": [
+      "Software"
+    ]
   },
   {
     "title": "Bicycle Frame Design",
