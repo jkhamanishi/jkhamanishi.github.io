@@ -58,7 +58,7 @@
     "description": [
       "Worked in a team of five to fabricate a device to detect, identify, aim, and shoot at rodents.",
       "Trained a rodent identification model using deep learning computer vision (OpenCV).",
-      "Controlled a low-powered laser pointer using a closed-loop motor control scheme.",
+      "Controlled a low-powered laser pointer using a closed-loop motor control scheme in Python.",
       "Created a GUI in Python Qt to monitor sensors, control actuators, and present statistics for development and commercial applications."
     ],
     "tags": [
@@ -89,7 +89,7 @@
     "start": "Nov",
     "end": "Dec 2022",
     "description": [
-      "Created a LEGO robot to navigate and solve a maze.",
+      "Created a LEGO robot to navigate and solve a maze in C.",
       "Developed an algorithm to determine the most efficient path to solve the maze.",
       "Used an ultrasonic sensor to detect walls, paths, and dead-ends."
     ],
