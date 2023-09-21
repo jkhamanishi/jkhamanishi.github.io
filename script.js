@@ -172,4 +172,5 @@ function customConfetti() {
         scalar: 1,
         zIndex: 2000
     });
+    document.getElementById('confetti-counter').innerText = +document.getElementById('confetti-counter').innerText + 1;
 };
