@@ -30,8 +30,6 @@ li {
 }
 
 #confetti-counter {
-    background: #2196f3;
-    color: #fff;
     position: fixed;
     bottom: 10px;
     right: 10px;
