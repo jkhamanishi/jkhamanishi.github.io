@@ -39,8 +39,7 @@ function loadProject(projectData) {
     const header = createAndAppendElement(card, 'div', "card-header");
     const title = createAndAppendElement(header, 'h3', "");
     title.innerText = projectData.title;
-    const duration = createAndAppendElement(header, 'p', "");
-    duration.innerText = projectData.start + " - " + projectData.end;
+    addDuration(header);
     // Body
     const body = createAndAppendElement(card, 'div', "card-body container-fluid");
     const row = createAndAppendElement(body, 'div', "row");
@@ -60,6 +59,14 @@ function loadProject(projectData) {
         tagElement.innerText = tag;
     });
 
+    function addDuration(parent) {
+        const duration = createAndAppendElement(parent, 'p', "");
+        if (projectData.start == projectData.end) {
+            duration.innerText = projectData.start;
+        } else {
+            duration.innerText = projectData.start + " - " + projectData.end;
+        }
+    }
     function addMedia(parent) {
         const imgContainer1 = createAndAppendElement(parent, 'div', "col-lg-4 photo-box");
         if (projectData.link || projectData.modalMedia) {

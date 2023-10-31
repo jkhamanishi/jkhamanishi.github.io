@@ -1,7 +1,7 @@
 [
   {
     "title": "Sudoku Generator & Solver",
-    "start": "Oct",
+    "start": "Oct 2023",
     "end": "Oct 2023",
     "description": [
       "Developed a Sudoku puzzle generator using a backwards puzzle solving algorithm in Python.",
@@ -16,7 +16,7 @@
   },
   {
     "title": "Snake Game",
-    "start": "Oct",
+    "start": "Oct 2023",
     "end": "Oct 2023",
     "description": [
       "Recreated the Snake game in C++.",
