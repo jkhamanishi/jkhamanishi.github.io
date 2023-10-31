@@ -1,5 +1,20 @@
 [
   {
+    "title": "Sudoku Generator & Solver",
+    "start": "Oct",
+    "end": "Oct 2023",
+    "description": [
+      "Developed a Sudoku puzzle generator using a backwards puzzle solving algorithm in Python.",
+      "Handled cross-application data transfer using object-oriented programming.",
+      "Used the 'tkinter' library to create a user interface allowing for cross-platform compatability."
+    ],
+    "tags": [
+      "Software"
+    ],
+    "media": "media/sudoku.jpg",
+    "link": "https://jkhamanishi.github.io/sudoku/"
+  },
+  {
     "title": "Snake Game",
     "start": "Oct",
     "end": "Oct 2023",
