@@ -1,12 +1,12 @@
 [
   {
     "title": "Sudoku Generator & Solver",
-    "start": "Oct 2023",
-    "end": "Oct 2023",
+    "start": "Oct",
+    "end": "Nov 2023",
     "description": [
       "Developed a Sudoku puzzle generator using a backwards puzzle solving algorithm in Python.",
       "Handled cross-application data transfer using object-oriented programming.",
-      "Used the 'tkinter' library to create a user interface allowing for cross-platform compatability."
+      "Used the 'tkinter' library to create a user interface allowing for cross-platform compatibility."
     ],
     "tags": [
       "Software"
