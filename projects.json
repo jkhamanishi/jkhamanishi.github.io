@@ -35,7 +35,7 @@
     "end": "Oct 2023",
     "description": [
       "Recreated the Snake game in C++.",
-      "Used the Windows API (Win32) to create a graphical user inteface.",
+      "Used the Windows API (Win32) to create a graphical user interface.",
       "Embedded MS Windows resources in the portable executable file.",
       "Created a custom icon and menu for the application.",
       "Allowed for customizable keyboard input options."
