@@ -1,5 +1,20 @@
 [
   {
+    "title": "Tic-Tac-Toe AI",
+    "start": "Nov 2023",
+    "end": "Nov 2023",
+    "description": [
+      "Developed a tic-tac-toe AI that never loses in Python.",
+      "Designed an algorithm based on machine learning and typical human behaviour.",
+      "Used the 'turtle' library to draw a GUI as if the game was played on paper."
+    ],
+    "tags": [
+      "Software"
+    ],
+    "media": "media/tic-tac-toe.jpg",
+    "link": "https://jkhamanishi.github.io/tic-tac-toe/"
+  },
+  {
     "title": "Sudoku Generator & Solver",
     "start": "Oct",
     "end": "Nov 2023",
