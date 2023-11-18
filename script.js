@@ -13,17 +13,16 @@ function loadProjects() {
         enableToolTips();
     })
     .then(() => {
-        Promise.all(
-            // Wait for all images to load
-            Array.from(document.images).filter(img => !img.complete).map(img => new Promise(resolve => {
+        // Run isotope every time an image is loaded
+        Array.from(document.images).filter(img => !img.complete).forEach(img => {
+            new Promise(resolve => {
                 img.onload = img.onerror = resolve;
-            }))
-        )
-        .then(() => {
-            // Run isotope once all images are loaded
-            $('#projects').isotope({
-                itemSelector: '.project',
-                masonry: {}
+            })
+            .then(() => {
+                $('#projects').isotope({
+                    itemSelector: '.project',
+                    masonry: {}
+                });
             });
         });
     });
