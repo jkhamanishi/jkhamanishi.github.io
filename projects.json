@@ -1,52 +1,5 @@
 [
   {
-    "title": "Tic-Tac-Toe AI",
-    "start": "Nov 2023",
-    "end": "Nov 2023",
-    "description": [
-      "Developed a tic-tac-toe AI that never loses in Python.",
-      "Designed an algorithm based on machine learning and typical human behaviour.",
-      "Used the 'turtle' library to draw a GUI as if the game was played on paper."
-    ],
-    "tags": [
-      "Software"
-    ],
-    "media": "media/tic-tac-toe.jpg",
-    "link": "https://jkhamanishi.github.io/tic-tac-toe/"
-  },
-  {
-    "title": "Sudoku Generator & Solver",
-    "start": "Oct",
-    "end": "Nov 2023",
-    "description": [
-      "Developed a Sudoku puzzle generator using a backwards puzzle solving algorithm in Python.",
-      "Handled cross-application data transfer using object-oriented programming.",
-      "Used the 'tkinter' library to create a user interface allowing for cross-platform compatibility."
-    ],
-    "tags": [
-      "Software"
-    ],
-    "media": "media/sudoku.jpg",
-    "link": "https://jkhamanishi.github.io/sudoku/"
-  },
-  {
-    "title": "Snake Game",
-    "start": "Oct 2023",
-    "end": "Oct 2023",
-    "description": [
-      "Recreated the Snake game in C++.",
-      "Used the Windows API (Win32) to create a graphical user interface.",
-      "Embedded MS Windows resources in the portable executable file.",
-      "Created a custom icon and menu for the application.",
-      "Allowed for customizable keyboard input options."
-    ],
-    "tags": [
-      "Software"
-    ],
-    "media": "media/snake.jpg",
-    "link": "https://github.com/jkhamanishi/snake"
-  },
-  {
     "title": "Curriculum Planner Web Application",
     "start": "Dec 2020",
     "end": "Oct 2023",
@@ -313,5 +266,52 @@
     ],
     "media": "",
     "link": ""
+  },
+  {
+    "title": "Tic-Tac-Toe AI",
+    "start": "Nov 2023",
+    "end": "Nov 2023",
+    "description": [
+      "Developed a tic-tac-toe AI that never loses in Python.",
+      "Designed an algorithm based on machine learning and typical human behaviour.",
+      "Used the 'turtle' library to draw a GUI as if the game was played on paper."
+    ],
+    "tags": [
+      "Software"
+    ],
+    "media": "media/tic-tac-toe.jpg",
+    "link": "https://jkhamanishi.github.io/tic-tac-toe/"
+  },
+  {
+    "title": "Sudoku Generator & Solver",
+    "start": "Oct",
+    "end": "Nov 2023",
+    "description": [
+      "Developed a Sudoku puzzle generator using a backwards puzzle solving algorithm in Python.",
+      "Handled cross-application data transfer using object-oriented programming.",
+      "Used the 'tkinter' library to create a user interface allowing for cross-platform compatibility."
+    ],
+    "tags": [
+      "Software"
+    ],
+    "media": "media/sudoku.jpg",
+    "link": "https://jkhamanishi.github.io/sudoku/"
+  },
+  {
+    "title": "Snake Game",
+    "start": "Oct 2023",
+    "end": "Oct 2023",
+    "description": [
+      "Recreated the Snake game in C++.",
+      "Used the Windows API (Win32) to create a graphical user interface.",
+      "Embedded MS Windows resources in the portable executable file.",
+      "Created a custom icon and menu for the application.",
+      "Allowed for customizable keyboard input options."
+    ],
+    "tags": [
+      "Software"
+    ],
+    "media": "media/snake.jpg",
+    "link": "https://github.com/jkhamanishi/snake"
   }
 ]
