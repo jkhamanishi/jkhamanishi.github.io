@@ -49,7 +49,7 @@ function loadProject(projectData) {
     const list = createAndAppendElement(listContainer, 'ul', "mb-3");
     projectData.description.forEach(desc => {
         const description = createAndAppendElement(list, "li", "");
-        description.innerText = desc;
+        description.innerHTML = desc;
     });
     // Footer
     const footer = createAndAppendElement(card, 'div', "card-footer");
