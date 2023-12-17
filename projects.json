@@ -1,5 +1,20 @@
 [
   {
+    "title": "Robot Arm Controller & Automation",
+    "start": "Dec 2023",
+    "end": "Dec 2023",
+    "description": [
+      "Created a connection to a robot arm via USB using the <code>libusb-win32</code> package and <code>pyusb</code> library.",
+      "Designed a controller app with Bootstrap and Flask."
+    ],
+    "tags": [
+      "Robotics",
+      "Software"
+    ],
+    "media": "media/Robot Arm.jpg",
+    "link": "https://jkhamanishi.github.io/robot-arm/"
+  },
+  {
     "title": "Curriculum Planner Web Application",
     "start": "Dec 2020",
     "end": "Oct 2023",
@@ -274,7 +289,7 @@
     "description": [
       "Developed a tic-tac-toe AI that never loses in Python.",
       "Designed an algorithm based on machine learning and typical human behaviour.",
-      "Used the 'turtle' library to draw a GUI as if the game was played on paper."
+      "Used the <code>turtle</code> library to draw a GUI as if the game was played on paper."
     ],
     "tags": [
       "Software"
@@ -289,7 +304,7 @@
     "description": [
       "Developed a Sudoku puzzle generator using a backwards puzzle solving algorithm in Python.",
       "Handled cross-application data transfer using object-oriented programming.",
-      "Used the 'tkinter' library to create a user interface allowing for cross-platform compatibility."
+      "Used the <code>tkinter</code> library to create a user interface allowing for cross-platform compatibility."
     ],
     "tags": [
       "Software"
