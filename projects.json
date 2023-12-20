@@ -4,12 +4,14 @@
     "start": "Dec 2023",
     "end": "Dec 2023",
     "description": [
-      "Created a connection to a robot arm via USB using the <code>libusb-win32</code> package and <code>pyusb</code> library.",
-      "Designed a controller app with Bootstrap and Flask."
+      "Established a USB connection to a robot arm using the <code>libusb-win32</code> package and the <code>pyusb</code> library.",
+      "Created custom byte messages to send signals to the robot arm.",
+      "Designed a controller app with Bootstrap and Flask to operate the robot arm."
     ],
     "tags": [
       "Robotics",
-      "Software"
+      "Software",
+      "Web Apps"
     ],
     "media": "media/Robot Arm.jpg",
     "link": "https://jkhamanishi.github.io/robot-arm/"
