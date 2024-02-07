@@ -294,6 +294,7 @@
       "Used the <code>turtle</code> library to draw a GUI as if the game was played on paper."
     ],
     "tags": [
+      "Games",
       "Software"
     ],
     "media": "media/tic-tac-toe.jpg",
@@ -309,6 +310,7 @@
       "Used the <code>tkinter</code> library to create a user interface allowing for cross-platform compatibility."
     ],
     "tags": [
+      "Games",
       "Software"
     ],
     "media": "media/sudoku.jpg",
@@ -326,6 +328,7 @@
       "Allowed for customizable keyboard input options."
     ],
     "tags": [
+      "Games",
       "Software"
     ],
     "media": "media/snake.jpg",
