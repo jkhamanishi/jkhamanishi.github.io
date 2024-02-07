@@ -8,6 +8,9 @@
       "Created custom byte messages to send signals to the robot arm.",
       "Designed a controller app with Bootstrap and Flask to operate the robot arm."
     ],
+    "purpose": [
+      "Personal"
+    ],
     "tags": [
       "Robotics",
       "Software",
@@ -25,6 +28,10 @@
       "Designed and organized curriculum data using CSV files, JavaScript, and HTML.",
       "Received feedback and feature requests from users and adjusted the application accordingly."
     ],
+    "purpose": [
+      "Personal",
+      "Academic"
+    ],
     "tags": [
       "Web Apps"
     ],
@@ -40,6 +47,9 @@
       "Designed the manipulator links in SolidWorks.",
       "Generated the path trajectory and simulated the manipulator motion using MATLAB.",
       "Analyzed the kinematics, dynamics, and Jacobian of the system."
+    ],
+    "purpose": [
+      "Academic"
     ],
     "tags": [
       "Robotics",
@@ -58,6 +68,9 @@
       "Designed an arm in SolidWorks and assembled the arm using brass pieces and solder.",
       "Constructed an electronic interface to connect an Arduino to the motor drive.",
       "Built a feedback control system to accurately operate the arm."
+    ],
+    "purpose": [
+      "Academic"
     ],
     "tags": [
       "Robotics",
@@ -78,6 +91,9 @@
       "Controlled a low-powered laser pointer using a closed-loop motor control scheme in Python.",
       "Created a GUI in Python Qt to monitor sensors, control actuators, and present statistics for development and commercial applications."
     ],
+    "purpose": [
+      "Academic"
+    ],
     "tags": [
       "Robotics",
       "Software"
@@ -93,6 +109,9 @@
       "Created a controller for a brushless DC axial fan in C.",
       "Developed a PWM signal generator using a closed-loop feedback controller to adjust the speed of the motor.",
       "Presented the speed of the fan onto three 7-segment displays."
+    ],
+    "purpose": [
+      "Academic"
     ],
     "tags": [
       "Electrical",
@@ -110,6 +129,9 @@
       "Developed an algorithm to determine the most efficient path to solve the maze.",
       "Used an ultrasonic sensor to detect walls, paths, and dead-ends."
     ],
+    "purpose": [
+      "Academic"
+    ],
     "tags": [
       "Robotics",
       "Software"
@@ -123,6 +145,9 @@
     "description": [
       "Created a LEGO robot to follow a line and react to an obstacle using C and Python.",
       "Used an ultrasonic sensor to detect obstacles and a light/colour sensor to detect the line."
+    ],
+    "purpose": [
+      "Academic"
     ],
     "tags": [
       "Robotics",
@@ -140,6 +165,9 @@
       "Used I2C sensors, multiplexers, and Raspberry Pis to record conditions at different locations in a lab room.",
       "Wrote a Python script to periodically send live and historical data to a database"
     ],
+    "purpose": [
+      "Professional"
+    ],
     "tags": [
       "Electrical",
       "Software"
@@ -155,6 +183,9 @@
       "Maintained and upgraded the LabVIEW and Python scripts for spectrometer testing stations to automatically send measurements to the database.",
       "Collected environmental data throughout the lab and visually presented current and historical lab conditions on demand."
     ],
+    "purpose": [
+      "Professional"
+    ],
     "tags": [
       "Software",
       "Web Apps"
@@ -168,6 +199,9 @@
       "Developed an online database of artwork for my high school gifted education program.",
       "Organized and collected artwork and artist information, and ensured the data is accurate, consistent, and inside the correct portfolio.",
       "Stored artist data in an Excel spreadsheet, then converted it to HTML using VBA and JavaScript."
+    ],
+    "purpose": [
+      "Personal"
     ],
     "tags": [
       "Web Apps"
@@ -185,6 +219,9 @@
       "Designed and analyzed the motor beam, angled support, support beams, chains and gear shaft.",
       "Created a SolidWorks model of the parts to optimize the topology, perform stress analysis, simulate the movement of the system."
     ],
+    "purpose": [
+      "Academic"
+    ],
     "tags": [
       "Mechanical"
     ],
@@ -199,6 +236,9 @@
       "Programmed an automatic controller for an industrial assembly system using LabVIEW.",
       "Utilized a variety of sensors and actuators to sort components, assemble units, and verify the assembly.",
       "Created an interactive user interface to view sensor data and manually operate actuators."
+    ],
+    "purpose": [
+      "Academic"
     ],
     "tags": [
       "Software",
@@ -216,6 +256,9 @@
       "Analysed the kinematics and dynamics for each of the four bars using mathematical models and computational methods in MATLAB.",
       "Created a SolidWorks model of the linkage to visually simulate the movement of the system."
     ],
+    "purpose": [
+      "Academic"
+    ],
     "tags": [
       "Mechanical",
       "Software"
@@ -232,6 +275,9 @@
       "Automatically rendered and visualized 3D models of organs.",
       "Scripted collages of extracted CT scan images and processed 3D models."
     ],
+    "purpose": [
+      "Professional"
+    ],
     "tags": [
       "Software"
     ]
@@ -245,6 +291,9 @@
       "Performed calculations to determine the relative safety in each bar.",
       "Proposed design change to improve safety and functionality of the bike.",
       "Assembled a detailed project report that outlined our findings and calculations."
+    ],
+    "purpose": [
+      "Academic"
     ],
     "tags": [
       "Mechanical"
@@ -260,6 +309,9 @@
       "Worked in a team to design a device that promotes persistent hydration to people of all ages.",
       "Designed and simulated a power efficient catapult in SolidWorks to launch water bottles.",
       "Combined SolidWorks drawings, part descriptions, and a design into a short technical report."
+    ],
+    "purpose": [
+      "Academic"
     ],
     "tags": [
       "Mechanical"
@@ -277,6 +329,9 @@
       "Created a full bridge rectifier to convert AC to DC to light an LED.",
       "Constructed a technical report and slideshow presentation to fully illustrate our project outcomes."
     ],
+    "purpose": [
+      "Academic"
+    ],
     "tags": [
       "Mechanical",
       "Electrical"
@@ -293,6 +348,9 @@
       "Designed an algorithm based on machine learning and typical human behaviour.",
       "Used the <code>turtle</code> library to draw a GUI as if the game was played on paper."
     ],
+    "purpose": [
+      "Personal"
+    ],
     "tags": [
       "Games",
       "Software"
@@ -308,6 +366,9 @@
       "Developed a Sudoku puzzle generator using a backwards puzzle solving algorithm in Python.",
       "Handled cross-application data transfer using object-oriented programming.",
       "Used the <code>tkinter</code> library to create a user interface allowing for cross-platform compatibility."
+    ],
+    "purpose": [
+      "Personal"
     ],
     "tags": [
       "Games",
@@ -326,6 +387,9 @@
       "Embedded MS Windows resources in the portable executable file.",
       "Created a custom icon and menu for the application.",
       "Allowed for customizable keyboard input options."
+    ],
+    "purpose": [
+      "Personal"
     ],
     "tags": [
       "Games",

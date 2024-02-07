@@ -32,6 +32,7 @@ function loadProject(projectData) {
     // Project card initialization
     const container = document.getElementById('projects');
     const project = createAndAppendElement(container, 'div', "project col-md-6 mb-4");
+    projectData.purpose.forEach(purpose => project.classList.add(purpose.toLowerCase()));
     projectData.tags.forEach(tag => project.classList.add(tag.replace(/ /g,"-").toLowerCase()));
     const card = createAndAppendElement(project, 'div', "card border-primary");
     // Header
@@ -53,9 +54,13 @@ function loadProject(projectData) {
     });
     // Footer
     const footer = createAndAppendElement(card, 'div', "card-footer");
+    projectData.purpose.forEach(purpose => {
+        const badge = createAndAppendElement(footer, "span", "badge rounded-pill bg-success me-1");
+        badge.innerText = purpose;
+    });
     projectData.tags.forEach(tag => {
-        const tagElement = createAndAppendElement(footer, "span", "badge rounded-pill bg-primary me-1");
-        tagElement.innerText = tag;
+        const badge = createAndAppendElement(footer, "span", "badge rounded-pill bg-primary me-1");
+        badge.innerText = tag;
     });
 
     function addDuration(parent) {
