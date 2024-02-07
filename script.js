@@ -158,14 +158,14 @@ function enableToolTips() {
 }
 
 function enableFilters() {
-    $('#filter-radio input').on('click', function() {
-        $('#projects').isotope({filter: this.value});
-        $('#filter-dropdown').val(this.value);
-    });
-    $('#filter-dropdown').on('change', function() {
-      $('#projects').isotope({filter: this.value});
-      $('#filter-radio input[value="' + this.value + '"]').prop('checked', true);
-    });
+    $('#subject-filter input').on('change', filterProjects);
+    $('#purpose-filter input').on('change', filterProjects);
+
+    function filterProjects() {
+        const subject = $('input[name="subject-filter"]:checked').val();
+        const purpose = $('input[name="purpose-filter"]:checked').val();
+        $('#projects').isotope({filter: subject + purpose});
+    }
 }
 
 function customConfetti() {

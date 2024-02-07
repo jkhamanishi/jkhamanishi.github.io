@@ -34,8 +34,7 @@
 </head>
 <body>
 
-<!--  Header  -->
-<div class="container-fluid bg-primary text-white text-center" style="padding: 4rem">
+<header class="container-fluid bg-primary text-white text-center" style="padding: 4rem">
   <h1>Jackson Hamanishi Portfolio</h1>
   <p class="mb-0">Welcome to my portfolio!</p>
   <br>
@@ -47,10 +46,9 @@
     <a class="icon-link text-white" target="_blank" rel="noopener noreferrer" href="https://github.com/jkhamanishi"><i class="bi bi-github"></i></a>
     <a class="icon-link text-white" target="_blank" rel="noopener noreferrer" href="https://jkhamanishi.github.io/"><i class="bi bi-folder-symlink-fill"></i></a>
   </h3>
-</div>
+</header>
 
-<!--  Main Container  -->
-<div class="container mt-5">
+<main class="container mt-5">
 
   <!--  Intro  -->
   <div class="row mb-4">
@@ -68,34 +66,50 @@
 
   <h1 class="mb-3">Projects</h1>
 
-  <!--  Filter Options-->
   <div class="row mb-3">
-    <div class="col-auto" style="display:flex;align-items:center;">Filter: </div>
-    <div class="col-auto btn-group d-none d-lg-block" id="filter-radio" role="group" aria-label="Basic radio toggle button group">
-      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-1" value="*" checked>
-      <label class="btn btn-outline-primary" for="filter-radio-1">All</label>
-      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-2" value=".robotics">
-      <label class="btn btn-outline-primary" for="filter-radio-2">Robotics</label>
-      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-3" value=".software">
-      <label class="btn btn-outline-primary" for="filter-radio-3">Software</label>
-      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-4" value=".mechanical">
-      <label class="btn btn-outline-primary" for="filter-radio-4">Mechanical</label>
-      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-5" value=".electrical">
-      <label class="btn btn-outline-primary" for="filter-radio-5">Electrical</label>
-      <input type="radio" class="btn-check" name="filter-radio" id="filter-radio-6" value=".web-apps">
-      <label class="btn btn-outline-primary" for="filter-radio-6">Web Apps</label>
-    </div>
-    <div class="col d-none d-lg-block"></div>
-    <div class="col form-group d-lg-none">
-      <select class="form-select" id="filter-dropdown" style="text-indent: 5px">
-        <option value="*">All</option>
-        <option value=".robotics">Robotics</option>
-        <option value=".software">Software</option>
-        <option value=".mechanical">Mechanical</option>
-        <option value=".electrical">Electrical</option>
-        <option value=".web-apps">Web Apps</option>
-      </select>
-    </div>
+    <!--  Filter Accordion -->
+    <div class="accordion col col-md-7 col-lg-5" id="filter-accordion"><div class="accordion-item">
+      <h2 class="accordion-header" id="filter-header">
+        <button class="accordion-button me-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          <i class="bi bi-filter-circle-fill"></i>&nbsp Filter
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="filter-header" data-bs-parent="#filter-accordion"><div class="accordion-body row">
+        <div class="col-auto mb-2 me-2"><fieldset class="form-group" id="subject-filter">
+          <h5>Project Subject</h5>
+          <input class="form-check-input" type="radio" name="subject-filter" id="subject-filter-1" value="*" checked="">
+          <label class="form-check-label" for="subject-filter-1">All</label><br>
+          <input class="form-check-input" type="radio" name="subject-filter" id="subject-filter-2" value=".robotics">
+          <label class="form-check-label" for="subject-filter-2">Robotics</label><br>
+          <input class="form-check-input" type="radio" name="subject-filter" id="subject-filter-3" value=".software">
+          <label class="form-check-label" for="subject-filter-3">Software</label><br>
+          <input class="form-check-input" type="radio" name="subject-filter" id="subject-filter-4" value=".mechanical">
+          <label class="form-check-label" for="subject-filter-4">Mechanical</label><br>
+          <input class="form-check-input" type="radio" name="subject-filter" id="subject-filter-5" value=".electrical">
+          <label class="form-check-label" for="subject-filter-5">Electrical</label><br>
+          <input class="form-check-input" type="radio" name="subject-filter" id="subject-filter-6" value=".web-apps">
+          <label class="form-check-label" for="subject-filter-6">Web Apps</label><br>
+          <input class="form-check-input" type="radio" name="subject-filter" id="subject-filter-7" value=".games">
+          <label class="form-check-label" for="subject-filter-7">Games</label>
+        </fieldset></div>
+        <div class="col-auto mb-2"><fieldset class="form-group" id="purpose-filter">
+          <h5>Project Purpose</h5>
+          <input class="form-check-input" type="radio" name="purpose-filter" id="purpose-filter-1" value="*" checked="">
+          <label class="form-check-label" for="purpose-filter-1">All</label><br>
+          <input class="form-check-input" type="radio" name="purpose-filter" id="purpose-filter-2" value=".personal">
+          <label class="form-check-label" for="purpose-filter-2">Personal</label><br>
+          <input class="form-check-input" type="radio" name="purpose-filter" id="purpose-filter-3" value=".academic">
+          <label class="form-check-label" for="purpose-filter-3">Academic</label><br>
+          <input class="form-check-input" type="radio" name="purpose-filter" id="purpose-filter-4" value=".professional">
+          <label class="form-check-label" for="purpose-filter-4">Professional</label>
+        </fieldset></div>
+      </div></div>
+    </div></div>
+
+    <!-- Spacer -->
+    <div class="col d-none d-md-block"></div>
+
+    <!-- Confetti Button -->
     <div class="col-auto">
       <div class="float-end">
         <button type="button" class="btn btn-outline-primary" onclick="customConfetti()">Confetti</button>
@@ -108,8 +122,7 @@
     <!--  This will autofill from projects.json  -->
   </div>
 
-  <!--  End of Main Container  -->
-</div>
+</main>
 
 <!--  Confetti Counter  -->
 <div id="confetti-counter" class="bg-primary text-white">0</div>

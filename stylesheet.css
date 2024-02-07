@@ -7,6 +7,12 @@
     height: 100%;
 }
 
+.accordion-item {
+    border: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    transition: color 0.4s, background-color 0.4s, border-color 0.4s, box-shadow 0.4s;
+}
+
 .card {
     --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.1);
 }
