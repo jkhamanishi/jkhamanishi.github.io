@@ -1,5 +1,45 @@
 [
   {
+    "title": "Construction Surveying Robot",
+    "start": "Sep 2024",
+    "end": "Present",
+    "description": [
+      "Developed an autonomous navigation system with GPS-based localization for waypoint-driven outdoor missions.",
+      "Designed an offline-compatible progressive web app (PWA) for map-based mission planning and real-time monitoring.",
+      "Integrated the hardware control system using a differential drive controller with tuned PID loops for accurate and stable motion control.",
+      "Implemented calibration and control workflows to ensure reliable and safe mission execution."
+    ],
+    "purpose": [
+      "Professional"
+    ],
+    "tags": [
+      "Robotics",
+      "Software",
+      "Web Apps"
+    ],
+    "media": "media/MARS.png"
+  },
+  {
+    "title": "Piezometer Deployment Robot",
+    "start": "Feb 2024",
+    "end": "Jan 2025",
+    "description": [
+      "Designed and developed an intuitive graphical user interface (GUI) for a remote operating station.",
+      "Implemented a finite state machine (FSM) to coordinate a multi-stage robotic deployment workflow.",
+      "Built a real-time, multi-camera monitoring dashboard using the WebRTC API.",
+      "Automated waypoint recording to accelerate trajectory planning for a 6-DoF robotic arm."
+    ],
+    "purpose": [
+      "Professional"
+    ],
+    "tags": [
+      "Robotics",
+      "Software",
+      "Web Apps"
+    ],
+    "media": "media/PiezoHog.png"
+  },
+  {
     "title": "Robot Arm Controller & Automation",
     "start": "Dec 2023",
     "end": "Dec 2023",
@@ -24,7 +64,7 @@
     "start": "Dec 2020",
     "end": "Oct 2023",
     "description": [
-      "Created a web application to help students in the School of Mechatronic Systems Engineering at SFU plan out their curriculum.",
+      "Created a web application to help students in the School of Mechatronic Systems Engineering at SFU plan out their degree.",
       "Designed and organized curriculum data using CSV files, JavaScript, and HTML.",
       "Received feedback and feature requests from users and adjusted the application accordingly."
     ],
